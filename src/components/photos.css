@@ -1,0 +1,303 @@
+
+ section  {
+ 	position: relative;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	overflow: hidden;
+	padding: 90px 0;
+ }
+
+ .content {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: center;
+ 	align-items: center;
+ 	min-height: 655px;
+ 	gap: 30px;
+ 	border-radius: 20px;
+ 	width: min(1200px, 100%);
+ 	z-index: 10;
+ }
+
+ 
+
+ .swiper-slide {
+ 	position: relative;
+ 	box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+ 	border-radius: 10px;
+ }
+
+ .swiper-slide span {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	color: #fff;
+ 	padding: 7px 18px;
+ 	margin: 10px;
+ 	border-radius: 20px;
+ 	letter-spacing: 2px;
+ 	font-size: 0.8rem;
+ 	font-weight: 700;
+ 	font-family: inherit;
+ 	box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17), inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
+ 	/* backdrop-filter: blur(74px); */
+ }
+
+ .swiper-slide h2 {
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	color: #fff;
+ 	font-weight: 400;
+ 	font-size: 1.1rem;
+ 	line-height: 1.4;
+ 	margin: 0 0 20px 20px;
+ }
+
+ .swiper-slide:nth-child(1n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/2929f534-3bc3-4cbd-b84c-80df863d5a38) no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(2n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b6f5eb64-887c-43b1-aaba-d52a4c59a379") no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(3n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e906353b-fde0-4518-9a03-16545c1161bd") no-repeat 50% 0% / cover;
+ }
+
+ .swiper-slide:nth-child(4n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/fc21e481-e28a-41a8-9db3-3b62c1ddc17e") no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(5n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/6b6ad966-79e1-4d3c-8f92-566d0fee8082") no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(6n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/2ad44f5d-2215-4416-9c9b-2bae3be51a67") no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(7n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/aa8fe914-741f-4bf4-ad4a-24f19d1f4178") no-repeat 50% 50% / cover;
+ }
+
+ .swiper-slide:nth-child(8n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d5f10b4f-7d34-45bd-bb5f-5f1530c2ac1c") no-repeat 50% 0% / cover;
+ }
+
+ .swiper-slide:nth-child(9n) {
+ 	background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/7cbac263-7c55-4428-908e-31018dc1bce3") no-repeat 50% 50% / cover;
+ }
+
+ /* ANIMATED BACKGROUND */
+
+ .circles {
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	overflow: hidden;
+ }
+
+ /* #FDC898 0%, rgba(182, 23, 255, 0.511) */
+ .circles li {
+ 	position: absolute;
+ 	display: block;
+ 	list-style: none;
+ 	width: 20px;
+ 	height: 20px;
+ 	background-color: #FDC898;
+ 	background-image: linear-gradient(225deg, #FDC898 0%, #784ba0 50%, rgba(182, 23, 255, 0.511) 100%);
+ 	animation: animate 25s linear infinite;
+ 	bottom: -150px;
+ 	border-radius: 50% !important;
+ }
+
+ .circles li:nth-child(1) {
+ 	left: 25%;
+ 	width: 80px;
+ 	height: 80px;
+ 	animation-delay: 0s;
+ }
+
+ .circles li:nth-child(2) {
+ 	left: 10%;
+ 	width: 20px;
+ 	height: 20px;
+ 	animation-delay: 2s;
+ 	animation-duration: 12s;
+ }
+
+ .circles li:nth-child(3) {
+ 	left: 70%;
+ 	width: 20px;
+ 	height: 20px;
+ 	animation-delay: 4s;
+ }
+
+ .circles li:nth-child(4) {
+ 	left: 40%;
+ 	width: 60px;
+ 	height: 60px;
+ 	animation-delay: 0s;
+ 	animation-duration: 18s;
+ }
+
+ .circles li:nth-child(5) {
+ 	left: 65%;
+ 	width: 20px;
+ 	height: 20px;
+ 	animation-delay: 0s;
+ }
+
+ .circles li:nth-child(6) {
+ 	left: 75%;
+ 	width: 110px;
+ 	height: 110px;
+ 	animation-delay: 3s;
+ }
+
+ .circles li:nth-child(7) {
+ 	left: 35%;
+ 	width: 150px;
+ 	height: 150px;
+ 	animation-delay: 7s;
+ }
+
+ .circles li:nth-child(8) {
+ 	left: 50%;
+ 	width: 25px;
+ 	height: 25px;
+ 	animation-delay: 15s;
+ 	animation-duration: 45s;
+ }
+
+ .circles li:nth-child(9) {
+ 	left: 20%;
+ 	width: 15px;
+ 	height: 15px;
+ 	animation-delay: 2s;
+ 	animation-duration: 35s;
+ }
+
+ .circles li:nth-child(10) {
+ 	left: 85%;
+ 	width: 150px;
+ 	height: 150px;
+ 	animation-delay: 0s;
+ 	animation-duration: 11s;
+ }
+
+ @keyframes animate {
+
+ 	0% {
+ 		transform: translateY(0) rotate(0deg);
+ 		opacity: 1;
+ 		border-radius: 0;
+ 	}
+
+ 	100% {
+ 		transform: translateY(-1000px) rotate(720deg);
+ 		opacity: 0;
+ 		border-radius: 50%;
+ 	}
+
+ }
+
+ .gallery {
+ 	display: grid;
+ 	grid-template-columns: repeat(4, 1fr);
+ 	grid-auto-rows: 100px;
+ 	gap: 0px 20px;
+ 	width: clamp(70vmin, 900px, 90%);
+
+ 	&:has(img:hover) img:not(:hover) {
+ 		filter: brightness(0.35);
+ 	}
+
+ 	& img {
+ 		object-fit: cover;
+ 		width: 100%;
+ 		height: 100%;
+ 		clip-path: polygon(0 20px, 100% 0, 100% calc(100% - 20px), 0 100%);
+ 		transition: clip-path 0.5s, transform 0.5s, filter 0.75s;
+ 		transform: scale(1);
+ 		border-radius: 20px;
+
+ 		&:nth-child(3n):not(:nth-last-child(-n+4)) {
+ 			grid-row: span 3;
+ 		}
+
+ 		&:nth-child(14n):not(:nth-last-child(-n+4)) {
+ 			grid-row: span 5;
+ 		}
+
+ 		&:hover {
+ 			transform: scale(2);
+ 			z-index: 1;
+ 			width: 100%;
+ 			aheight: auto;
+ 			aaspect-ratio: 1;
+ 			clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+ 			transition: clip-path 0.5s, transform 0.5s, filter 0.5s;
+ 		}
+ 	}
+
+ 	& .spacer {
+ 		background: #c00;
+ 		clip-path: polygon(0 20px, 100% 0, 100% calc(100% - 20px), 0 100%);
+ 		box-sizing: border-box;
+ 	}
+
+ 	& .quote {
+ 		grid-row: span 3;
+ 		margin: 0;
+ 		display: flex;
+ 		flex-direction: column;
+ 		justify-content: center;
+ 		align-items: center;
+ 		padding: 20px;
+ 		color: #eee;
+ 		font-family: Montserrat;
+ 		font-size: 0.9em;
+
+ 		& span {
+ 			text-wrap: balance;
+ 			margin: 0 auto 15px auto;
+ 			max-width: 80%;
+ 			line-height: 1.5;
+
+ 			&::before {
+ 				content: "\"";
+ 				font-size: 4em;
+ 				font-family: Georgia, 'Palatino Linotype', 'Times New Roman', serif;
+ 				vertical-align: middle;
+ 				line-height: 0;
+ 				color: #fff8;
+ 			}
+ 		}
+ 	}
+ }
+
+ @media all and (max-width: 700px) {
+ 	.gallery {
+ 		grid-template-columns: repeat(3, 1fr);
+ 	}
+ }
+
+ @media all and (max-width: 500px) {
+ 	.gallery {
+ 		grid-template-columns: repeat(2, 1fr);
+ 	}
+ }
+
+ @media all and (max-width: 400px) {
+ 	.gallery {
+ 		grid-template-columns: repeat(1, 1fr);
+ 	}
+ }
+
+    
