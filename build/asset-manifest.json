@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lia-yupa/build/static/css/main.14443fbb.css",
-    "main.js": "/lia-yupa/build/static/js/main.3e32f24b.js",
+    "main.js": "/lia-yupa/build/static/js/main.ef82b95c.js",
     "static/js/787.fb771931.chunk.js": "/lia-yupa/build/static/js/787.fb771931.chunk.js",
     "static/media/mobile8.mp4": "/lia-yupa/build/static/media/mobile8.0094ecb58a0d698f2d07.mp4",
     "static/media/web-coder-7.mp4": "/lia-yupa/build/static/media/web-coder-7.06df56e70076f68b71e8.mp4",
@@ -87,11 +87,11 @@
     "static/media/arrow2.svg": "/lia-yupa/build/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/lia-yupa/build/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "main.14443fbb.css.map": "/lia-yupa/build/static/css/main.14443fbb.css.map",
-    "main.3e32f24b.js.map": "/lia-yupa/build/static/js/main.3e32f24b.js.map",
+    "main.ef82b95c.js.map": "/lia-yupa/build/static/js/main.ef82b95c.js.map",
     "787.fb771931.chunk.js.map": "/lia-yupa/build/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14443fbb.css",
-    "static/js/main.3e32f24b.js"
+    "static/js/main.ef82b95c.js"
   ]
 }
