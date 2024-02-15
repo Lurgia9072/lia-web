@@ -104,10 +104,10 @@ export const Skills = () => {
                   <h5>Node js</h5>
                 </div>
 
-                <div className="item">
+             /*    <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Aws</h5>
-                </div>
+                </div> */
 
                 <div className="item">
                   <img src={meter1} alt="Image" />
