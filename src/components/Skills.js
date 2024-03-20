@@ -12,7 +12,7 @@ import { useEffect } from "react";
 export const Skills = () => {
   const [slidesToShow, setSlidesToShow] = useState(3);
 
-  const handleResponsive = () => { 
+  const handleResponsive = () => {
     // Obtén el ancho de la ventana
     const windowWidth = window.innerWidth;
 
@@ -65,27 +65,22 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>With more than 2 years of experience in the world of software development and web design, I have gained solid skills and a deep understanding of emerging technologies. My experience in UX/UI using Figma has allowed me to design intuitive and engaging user interfaces. My passion for technology and commitment to continuous improvement drive me to constantly look for new opportunities to grow and learn</p>
               <Carousel responsive={responsive}
-               autoplay={true}
-               autoplaySpeed={900}
-               slidesToShow={slidesToShow}
-              infinite={true} className="owl-carousel owl-theme skill-slider">
+                autoplay={true}
+                autoplaySpeed={900}
+                slidesToShow={slidesToShow}
+                infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>JavaScript</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h5>React</h5>
-                </div>
-                <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h5>Angular</h5>
-                </div>
-                <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Html</h5>
                 </div>
-
+                <div className="item">
+                  <img src={meter1} alt="Image" />
+                  <h5>WordPress</h5>
+                </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Css/Scss</h5>
@@ -94,6 +89,16 @@ export const Skills = () => {
                   <img src={meter1} alt="Image" />
                   <h5>Figma</h5>
                 </div>
+
+                <div className="item">
+                  <img src={meter2} alt="Image" />
+                  <h5>React</h5>
+                </div>
+                <div className="item">
+                  <img src={meter3} alt="Image" />
+                  <h5>Angular</h5>
+                </div>
+
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Java</h5>
@@ -103,12 +108,6 @@ export const Skills = () => {
                   <img src={meter1} alt="Image" />
                   <h5>Node js</h5>
                 </div>
-
-                <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h5>Aws</h5>
-                </div>
-
                 <div className="item">
                   <img src={meter1} alt="Image" />
                   <h5>Sprint Boot</h5>
